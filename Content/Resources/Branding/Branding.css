@@ -1,0 +1,19 @@
+/*<meta />*/
+
+/* MadCap-Branding applanguage:Templates/Projects/Online & Print/Tripane and PDF/ */
+
+:root
+{
+	--Lightest: #FFFFFF;
+	--Primary: #274472;
+	--Secondary: #5885af;
+	--Medium: #41729f;
+	--Dark: #051022;
+	--Darkest: #010711;
+	--Light: #bad7db;
+	--LogoImagePrint: url('../Images/electric-keyboard-nieb.png');
+	--HeroImage: url('../Images/electric-keyboard-nieb.png');
+	--FontFamily: Cambria;
+	--LogoImage: url('none');
+}
+

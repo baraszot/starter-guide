@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A-Introduction-Topics/Vistula Tech Comm Student.htm'],s:['10','start'],p:[['10',14],['given',10],['probably',21],['wrote',6]]});

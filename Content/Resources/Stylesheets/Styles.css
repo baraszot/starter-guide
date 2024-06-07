@@ -1,0 +1,692 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+body
+{
+	color: #051022;
+	font-family: Cambria;
+	padding: 2% 2%;
+	background-color: #FFFFFF;
+}
+
+/* Backmatter */
+
+div.GlossaryPageDefinition
+{
+	font-size: 10pt;
+}
+
+div.GlossaryPageHeading
+{
+	font-size: 21pt;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom-color: #41729f;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	background-image: url('../Images/Backmatter-Heading-Background.png');
+	background-repeat: no-repeat;
+}
+
+div.GlossaryPageTerm
+{
+	font-size: 12pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+MadCap|glossaryProxy
+{
+	border-top: none;
+}
+
+MadCap|indexProxy
+{
+	border-top: none;
+}
+
+p.Index1
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+p.Index2
+{
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+p.IndexHeading
+{
+	font-size: 21pt;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom-color: #41729f;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 12px;
+	padding-right: 10px;
+	background-image: url('../Images/Backmatter-Heading-Background.png');
+	background-repeat: no-repeat;
+}
+
+p.noteAlt
+{
+	background-image: url(../Images/icons/Pencil-48.png);
+	background-position: 9px 0px;
+	background-repeat: no-repeat;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 15px 60px;
+	border-left-color: #274472;
+	border-left: solid 4px #274472;
+	background-color: #c2d3e3;
+}
+
+/* Content */
+
+img
+{
+	border: none;
+	max-width: 100%;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20pt;
+	letter-spacing: 0.25px;
+	widows: 3;
+	orphans: 3;
+}
+
+p.created-using-flare
+{
+	color: #051022;
+	font-weight: bold;
+	margin-top: 18px;
+	font-size: 9pt;
+	line-height: 15pt;
+	text-transform: uppercase;
+}
+
+p.table-text
+{
+	font-size: 12pt;
+}
+
+/* Frontmatter */
+
+hr.title-page
+{
+	border: solid 0px transparent;
+	background-color: #bad7db;
+	height: 1px;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 370px;
+}
+
+MadCap|tocProxy
+{
+	border-top: none;
+	margin-right: 0.25in;
+}
+
+p.created-using-flare
+{
+	color: #010711;
+	font-weight: bold;
+	margin-top: 18px;
+	font-size: 9pt;
+	line-height: 15pt;
+	text-transform: uppercase;
+}
+
+p.title
+{
+	font-size: 55pt;
+	line-height: 65pt;
+	margin-top: 30px;
+	mc-hyphenate: never;
+}
+
+p.title-page-footer
+{
+	color: #051022;
+	font-size: 9pt;
+	frame-break-before: always;
+	line-height: 15pt;
+	margin-top: 30px;
+}
+
+p.title-page-url
+{
+	color: #051022;
+	font-size: 9pt;
+	line-height: 15pt;
+}
+
+p.TOC1
+{
+	color: #051022;
+	font-size: 19pt;
+	font-weight: normal;
+	line-height: 21pt;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	page-break-after: avoid;
+}
+
+p.TOC2
+{
+	color: #051022;
+	font-size: 15pt;
+	font-weight: normal;
+	line-height: 21pt;
+	margin-bottom: 13px;
+	margin-left: .5in;
+	margin-top: 13px;
+}
+
+p.TOC3
+{
+	color: #051022;
+	font-size: 13pt;
+	line-height: 21pt;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-left: 1in;
+	margin-top: 10px;
+}
+
+/* Headings */
+
+h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: #274472;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+	page-break-before: always;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+/* Home page topic */
+
+div.home-section
+{
+	padding: 3% 2%;
+	border-bottom: solid 1px #bad7db;
+}
+
+div.home-section:first-of-type	/*Removes padding-top of the first home-section*/
+{
+	padding: 0 2% 3%;
+}
+
+div.home-section:last-of-type	/*Removes bottom border of last home-section*/
+{
+	border-bottom: none;
+}
+
+div.quick-links	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.quick-links::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.quick-links::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.quick-links > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.quick-links > div:nth-child(1)
+{
+	width: 16.66666%;
+	margin-left: 2%;
+}
+
+div.quick-links > div:nth-child(2)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(3)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(4)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(5)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links *	/*Text-align center set to all elements within div.quick-links*/
+{
+	text-align: center;
+}
+
+.quick-links *	/*Color of the font for text in quick links*/
+{
+	color: #010711;
+}
+
+/* Links */
+
+a
+{
+	color: #274472;
+}
+
+a:link
+{
+	color: #274472;
+}
+
+a:visited
+{
+	color: #274472;
+}
+
+MadCap|dropDown
+{
+	border-bottom: 1px solid #bad7db;
+	mc-image-position: left;
+	mc-image-spacing: 10px;
+	mc-open-image: url('../Images/Minus.png');
+	mc-closed-image: url('../Images/Plus.png');
+	padding: 10px 0;
+}
+
+MadCap|dropDownBody
+{
+	padding: 10px 30px 0;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	text-decoration: none;
+	color: #051022;
+	font-size: 20pt;
+	font-weight: bold;
+	border-bottom: none;
+}
+
+MadCap|expandingBody
+{
+	color: #051022;
+	font-style: italic;
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #274472;
+}
+
+MadCap|xref
+{
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+	color: #274472;
+}
+
+/* Lists */
+
+dd,
+dd p,
+dt,
+dt p,
+li,
+li p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+dl,
+ol,
+ul
+{
+	letter-spacing: .25px;
+	line-height: 20pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Page layout */
+
+p.frame-footer-page-number
+{
+	color: #41729f;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: right;
+}
+
+p.frame-footer-text
+{
+	color: #41729f;
+	font-size: 11pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.page-layout-front-header
+{
+	background-color: #274472;
+	height: 155px;
+	width: 825px;
+}
+
+.page-layout-front-logo
+{
+	height: 90px;
+	width: 724px;
+	background-color: transparent;
+	background-image: url('../Images/electric-keyboard-nieb.png');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+.page-layout-front-main
+{
+	background-color: #5885af;
+	height: 650px;
+	margin: 0px;
+}
+
+.page-layout-front-footer
+{
+	height: 275px;
+	margin: 0px;
+	background-color: #051022;
+	background-image: url('../Images/electric-keyboard-nieb.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Master page */
+
+.home-footer-logo
+{
+	background-image: url('../Branding/none');
+	background-repeat: no-repeat;
+	background-position: right center;
+	width: 400px;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: #051022;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	/* Home page topic */
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 24%;
+		margin-left: 0%;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 24%;
+		margin-left: 19%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	/* Home page topic */
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(5)
+	{
+		width: 49%;
+		margin-left: 25.5%;
+	}
+
+	.home-footer-logo
+	{
+		padding: 20px;
+		background-origin: content-box;
+		background-size: contain;
+	}
+}
+
+@media print
+{
+	body
+	{
+		font-size: 11pt;
+		line-height: 13pt;
+		margin: 8px;
+		background-color: transparent;
+		padding: 0%;
+		text-align: justify;
+		mc-hyphenate: never;
+	}
+
+	/* Content */
+
+	p
+	{
+		margin-bottom: 10px;
+		margin-top: 10px;
+		text-align: justify;
+	}
+
+	p.table-text
+	{
+		font-size: 11pt;
+	}
+
+	/* Headings */
+
+	h1
+	{
+		line-height: 27pt;
+		text-align: left;
+		mc-hyphenate: never;
+		margin-bottom: 40px;
+		font-size: 30pt;
+	}
+
+	h2
+	{
+		line-height: 23pt;
+		color: #274472;
+		font-weight: bold;
+		margin-bottom: 30px;
+		margin-top: 20px;
+		text-align: left;
+		font-size: 23pt;
+	}
+
+	h3
+	{
+		font-size: 15pt;
+		font-weight: bold;
+		line-height: 17pt;
+		margin-bottom: 15px;
+		margin-top: 40px;
+		mc-heading-level: 0;
+	}
+
+	/* Links */
+
+	MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+
+	p.TOC2
+	{
+		font-size: 12;
+		mc-hyphenate: never;
+	}
+
+	p.TOC1
+	{
+		font-size: 15;
+		text-align: left;
+		mc-hyphenate: never;
+	}
+
+	p.TOC3
+	{
+		mc-toc-depth: 0;
+	}
+}
+
+/*<meta sourceDocument="C:\Users\Barbara\Desktop\praca zaliczeniowa\Additional devices.docx" />*/
+
+span.span_1
+{
+	font-size: 12pt;
+}
+
+p.p_1
+{
+	margin-left: 35pt;
+}
+
+p.p_2
+{
+	text-indent: 35pt;
+	font-size: 12pt;
+}
+
+a.a_1
+{
+	font-size: 12pt;
+}
+
+span.span_2
+{
+	font-style: italic;
+}
+
